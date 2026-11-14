@@ -1,0 +1,29 @@
+# Credentials and kubeconfig - never commit
+.kube/
+kubeconfig*
+*.kubeconfig
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+*.publishsettings
+azureauth.json
+secrets*.json
+
+# Build / deployment output
+*.parameters.local.json
+infra/**/*.json.bak
+.azure/
+bin/
+obj/
+__pycache__/
+.venv/
+node_modules/
+
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
